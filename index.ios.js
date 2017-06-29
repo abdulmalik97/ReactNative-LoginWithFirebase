@@ -17,12 +17,13 @@ state = {loggedIn:null};
 
   componentWillMount(){
     firebase.initializeApp({
-        apiKey: "AIzaSyCntX0OExMFqAGu4Ezzww3aY0mT8odxWn8",
-        authDomain: "maliksapp-2e912.firebaseapp.com",
-        databaseURL: "https://maliksapp-2e912.firebaseio.com",
-        projectId: "maliksapp-2e912",
-        storageBucket: "maliksapp-2e912.appspot.com",
-        messagingSenderId: "180018897312"
+      //Can get the following information by creating the firebase account. Just copy and paste it after creatig your own project.
+        apiKey: "*******",
+        authDomain: "*********",
+        databaseURL: "https://******.firebaseio.com",
+        projectId: "*******",
+        storageBucket: "******.appspot.com",
+        messagingSenderId: "**********"
       });
 
     firebase.auth().onAuthStateChanged((user) => {
